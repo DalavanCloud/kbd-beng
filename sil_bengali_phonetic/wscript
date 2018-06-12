@@ -1,0 +1,22 @@
+# For building MS kbd from kmn source
+
+APPNAME='beng'
+VERSION=0.7
+
+p = package(
+        appname = APPNAME,
+        outdir = 'exes',
+	docdir = 'MSkbd',
+	license = 'MSkbd/license.txt',
+        zipdir = 'zips',
+	version = VERSION,
+    )
+
+kbd(source = 'beng.kmn',
+	fontname = 'SolaimanLipi 05',
+	font = 'CompiledFonts/SolaimanLipi_05.ttf',
+	package = p,
+	mskbd = mskbd(langname = 'Assamese', lid = 0x044D, lidinstall = [0x044D])
+# v0.6	mskbd = mskbd(langname = 'Assamese', lid = 0x082C, lidinstall = [0x082C])
+	)
+

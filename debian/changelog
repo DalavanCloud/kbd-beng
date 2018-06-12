@@ -1,0 +1,11 @@
+kmfl-keyboard-bengali (1.0.1) unstable; urgency=low
+
+  * Refactored packaging.
+
+ -- Indic Dev <indic_dev@sil.org>  Wed, 13 Mar 2013 08:26:46 -0600
+
+kmfl-keyboard-bengali (1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Indic Dev <indic_dev@sil.org>  Mon, 11 Mar 2013 16:34:06 -0600

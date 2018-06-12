@@ -1,0 +1,16 @@
+Source: kmfl-keyboard-bengali
+Section: x11
+Priority: optional
+Maintainer: Indic Dev <indic_dev@sil.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+
+Package: kmfl-keyboard-bengali
+Architecture: all
+Depends: kmfl-keyboard-indic-common, ${misc:Depends}
+Recommends: ttf-bengali-fonts
+Description: Keyboard for Bengali script
+ Keyboard used with Keyman on Windows
+ and now with IBus on Debian/Ubuntu.
+ .
+ Layout is phonetic.
